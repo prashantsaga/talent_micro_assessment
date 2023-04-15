@@ -20,7 +20,7 @@
     height: 190px;
     float: left;
     background-color: white;
-    text-align: center;
+    
     border-radius:  15px 0 0 0;   
 }
 .logo{
@@ -30,6 +30,20 @@
   margin: 40px 0 0 40px;
   border-radius: 25px;
   float: left;
+}
+.content{
+  border: 1px solid white;
+ width: 400px;
+  float: right;
+}
+.circle{
+  background: #ccc;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 1.5;
+  float: right;
 }
 .right
 {
