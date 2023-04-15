@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    background-color: white;
+    
+}
+.full{
+    background-color: #eee;
+    height: 100%;
+    margin-top: 10px;
+    
+}
+.header{
+    height: 240px;
+    background-color: white;
+
+    margin: 10px;
+}
+.left{
+    width: 48%;
+    height: 190px;
+    float: left;
+    background-color: white;
+    text-align: center;
+    border-radius:  15px 0 0 0;   
+}
+.logo{
+  width: 100px;
+  height: 120px;
+  border: 1px solid black;
+  margin: 40px 0 0 40px;
+  border-radius: 25px;
+  float: left;
+}
+.right
+{
+    width: 51.5%;
+    height: 190px;
+    float: right;
+    border-left: 2px dotted black;
+    background-color: white;
+    
+}
+.nav {
+    background-color: white;
+    height: 40px;
+    width: 100%-21px;
+    float: left;
+    background-color: white;
+    
+  }
+  
+  .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    background-color: white;
+  }
+  
+  .nav li {
+    height: 100%;
+    background-color: white;
+  }
+  
+  .nav li a {
+    color: blue;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    line-height: 3.0;
+    background-color: white;
+    padding: 0 20px;
+  }
+  i{
+    background-color: white;
+    color: red;
+  }
+  
+  .nav li a:hover {
+    color: black;
+  }
+  .middle{
+    background-color: #eee;
+    height: 800px;
+    margin:  10px  10px ;
+    border-radius: 10px;
+  }
+  .personal{
+    width: 46%;
+    border: 1px solid white;
+    float: left;
+    height: 250px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px 0 ;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .emergency{
+    width: 46.2%;
+    border: 1px solid white;
+    float: right;
+    height: 250px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .bank{
+    width: 46.2%;
+    border: 1px solid rgb(247, 243, 243);
+    background-color: white;
+    float: left;
+    height: 180px;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .family{
+    width: 46.2%;
+    border: 1px solid rgb(240, 235, 235);
+    float: right;
+    background-color: white;
+    height: 180px;
+    border-radius: 4px;
+    margin: 10px 0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .family table{    
+      border-collapse: collapse;
+      width: 100%;
+  }
+
+
+ .family table .td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  .education{
+    width: 46.2%;
+    border: 1px solid rgb(221, 215, 215);
+    float: left;
+    background-color: white;
+    height: 180px;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .experience{
+    width: 46.2%;
+    border: 1px solid rgb(224, 221, 221);
+    border-radius: 5px;
+    float: right;
+    height: 180px;
+    background-color: white;
+    margin: 10px 0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  
